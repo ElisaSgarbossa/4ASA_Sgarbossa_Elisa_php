@@ -6,13 +6,12 @@
     <title>Questionario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body style="background-color:darkgrey;">
+<body style="background-color:darkslategray;">
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Questionario
         <img src="https://static.vecteezy.com/system/resources/previews/024/029/746/non_2x/book-icon-clipart-transparent-background-free-png.png" style="width:40px">
     </a><br>
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,7 +31,7 @@
   </div>
 </nav>
     <table  style="margin: 20px;">
-    <td style="background-color:antiquewhite; border-radius:10px">
+    <td style="background-color:lavender; border-radius:10px">
     <center>
         <h1>Questionario d'accesso</h1>
         <br>
