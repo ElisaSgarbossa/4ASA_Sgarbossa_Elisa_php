@@ -6,7 +6,7 @@
     <title>Form di accesso</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body style="background-color:<?=$_GET['colore'] ?>; font-family:Cambria">
+<body style="background-color:<?=$_GET['colore'] ?>; font-family:Cambria; font-size:larger">
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Questionario
@@ -85,7 +85,7 @@
     </div>
   </div>
 
-    <footer class="footer mt-auto py-3" style="background-color: black;">
+    <footer class="footer mt-auto py-3" style="background-color: black; align:">
         <div class="container">
           <span class="text-light">
           <div style="width: 30%; align:left"><img src="https://static.vecteezy.com/system/resources/previews/024/029/746/non_2x/book-icon-clipart-transparent-background-free-png.png" style="width: 60px"></div>
