@@ -32,7 +32,7 @@
 </nav>
 <br>
     <table  style="margin: 20px;">
-    <td style="background-color:lavender; border-radius:10px">
+    <td style="background-color:lavender; border-radius:10px; width: 45%">
     <center>
       <br>
         <h1>Questionario d'accesso</h1>
@@ -72,7 +72,7 @@
     </td>
     
     </table>
-    <br><br><br><br><br>
+    <br>
     <footer class="footer mt-auto py-3" style="background-color: black;">
         <div class="container">
           <span class="text-light">
