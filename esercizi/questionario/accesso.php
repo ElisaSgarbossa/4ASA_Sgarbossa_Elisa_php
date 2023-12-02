@@ -34,7 +34,6 @@
 <?php 
 $password = "info2023";
 $tentativi = 3;
-while($tentativi > 0){
 if($_GET['password']==$password){
 ?>
 <center>
@@ -96,12 +95,9 @@ $tentativi=0;
 else{
   $tentativi=3;
 ?>
-  <p>La password è errata <?=$tentativi?> rimasti
-  Inserisci nuovamente la password </p>
-  <br>
-  <label for='password'>Password:</label>
-  <input type='password' id='password' name='password'><br>
-
+<center>
+  <h1 style="text-color: red; font-size:xxx-large;"><b>La password è errata <?=$tentativi?> tentativi rimasti</b></h1>
+</center>
 <?php
   if($_GET['password']==$password){
     $tentativi=0;
@@ -109,8 +105,9 @@ else{
 
   $tentativi--;
 }
-}
+
 ?>
+<br><br><br><br><br><br><br><br><br><br><br><br>
     <footer class="footer mt-auto py-3" style="background-color: black;">
         <div class="container">
           <span class="text-light">
