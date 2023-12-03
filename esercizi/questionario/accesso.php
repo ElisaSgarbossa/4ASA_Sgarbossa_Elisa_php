@@ -33,7 +33,6 @@
 <br>
 <?php 
 $password = "info2023";
-$tentativi = 3;
 if($_GET['password']==$password){
 ?>
 <center>
@@ -90,24 +89,27 @@ if($_GET['password']==$password){
     </div>
   </div>
   <?php
-$tentativi=0;
 }
 else{
-  $tentativi=3;
 ?>
 <center>
-  <h1 style="text-color: red; font-size:xxx-large;"><b>La password è errata <?=$tentativi?> tentativi rimasti</b></h1>
-</center>
+  <h1 class="text-primary" style="font-size:xxx-large;"><b>La password è errata</b></h1>
+  <h3 class="text-info" style="font-size:x-large;"><b>La password è errata</b></h3>
+
 <?php
   if($_GET['password']==$password){
-    $tentativi=0;
   }
-
-  $tentativi--;
+  echo "<form action='./index.php'>
+  <label for='t'></label>
+  <button type='submit' class='btn btn-light'>Torna al login</button>
+  <br><br>
+  ";
+  "break";
+  echo"<br><br><br><br>";
 }
-
 ?>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+</center>
+<br><br><br><br>
     <footer class="footer mt-auto py-3" style="background-color: black;">
         <div class="container">
           <span class="text-light">
