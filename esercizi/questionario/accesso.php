@@ -94,7 +94,7 @@ else{
 ?>
 <center>
   <h1 class="text-primary" style="font-size:xxx-large;"><b>La password è errata</b></h1>
-  <h3 class="text-info" style="font-size:x-large;"><b>La password è errata</b></h3>
+  <h3 class="text-info" style="font-size:x-large;"><b>Riprovare</b></h3>
 
 <?php
   if($_GET['password']==$password){
