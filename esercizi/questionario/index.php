@@ -59,8 +59,11 @@
         <label for="colore">Inserire colore sfondo:</label>
         <input type="color" id="colore" name="colore"><br>
         <br>
-        <button type="submit" class="btn btn-primary">Accedi</button>
-        <br><br>
+        <button type="submit" class="btn btn-light btn-lg">Accedi</button>
+        <br>
+        <label for="tentativi"></label>
+        <input type="hidden" id="tentativi" name="tentativi" value='3-<?php $_GET['t']?>'><br>
+        
     </form>
     </center>
     </td>
