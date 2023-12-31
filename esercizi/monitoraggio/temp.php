@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <title>Monitoraggio con ESP32</title>
+<body style="background-color: lavender;">
 <?php
 //trasformiamo la stringa in un array
 $dati = json_decode(file_get_contents('raccolta_dati.txt')); //i dati vengono presi da un file di testo (dove la scheda li aveva salvati)
 ?>
 <center>
-<h1 style="font-family:sans-serif">Grafico monitoraggio umidità e temperatura</h1>
+<h1 style="font-family:Verdana">Grafico monitoraggio umidità e temperatura</h1>
 </center>
 <div>
   <canvas id="myChart"></canvas>
@@ -44,5 +45,5 @@ $dati = json_decode(file_get_contents('raccolta_dati.txt')); //i dati vengono pr
     }
   });
 </script>
- 
+</body> 
 </html>
