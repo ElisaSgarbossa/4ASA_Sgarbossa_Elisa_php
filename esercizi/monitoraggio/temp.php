@@ -14,8 +14,8 @@ $dati = json_decode(file_get_contents('raccolta_dati.txt')); //i dati vengono pr
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-  const ctx = document.getElementById('myChart');
-  new Chart(ctx, {
+  const grafico = document.getElementById('myChart');
+  new Chart(grafico, {
     type: 'line',
     data: {
         labels: ['1', '2', '3', '4', '5', '6', '7'],
